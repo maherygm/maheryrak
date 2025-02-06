@@ -51,7 +51,7 @@ export function BoxRevealDemo() {
               </span>
               .
               <br />
-              -&gt; this is my personal porfolio <br />
+              -&gt; This is My Personal Porfolio <br />
             </p>
           </div>
         </BoxReveal>

@@ -7,13 +7,15 @@ import { BoxRevealDemo } from "../../../../customComponents/boxReveal";
 const Banner = () => {
   return (
     <div className=" h-full flex flex-col items-center">
-      <div className="relative p-10 mt-20 w-[80%] flex justify-between  mx-auto">
-        <BoxRevealDemo />
+      <div className="relative p-2 md:p-10 mt-20 md:w-[80%] flex  justify-between  mx-auto md:flex-row flex-col">
+        <div className="w-full ">
+          <BoxRevealDemo />
+        </div>
 
-        <div className="w-1/3">
+        <div className="md:w-1/3 w-full">
           <img className="w-full" src={mhrPhoto} alt="" loading="lazy" />
         </div>
-      
+
         <GridPattern
           squares={[
             [4, 4],
@@ -35,7 +37,7 @@ const Banner = () => {
           )}
         />
       </div>
-      <div className="w-[80%] mx-auto  px-10">
+      <div className="md:w-[80%] w-full mx-auto  px-10">
         <div className="bg-white dark:bg-zinc-900 py-9 px-5 rounded-xl ">
           <h1 className="flex gap-2">
             Trusted by <TiPen />
